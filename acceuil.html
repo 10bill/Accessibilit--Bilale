@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Ajouter le lien vers la bibliothèque Swiper.js -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Ajoutez l'attribut 'loading="lazy"' aux balises script pour retarder leur chargement -->
+
+
+</head>
+
+
+<body>
+
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Bilal<span>e</span></a></h1>
+
+            <ul>
+                <li><a href="acceuil.html" aria-label="Accueil">Acceuil</a></li>
+            </ul>
+            <ul>
+                <li><a href="visite.html" aria-label="Visite">Visite</a></li>
+            </ul>
+            <button id="toggle-mode" onclick="toggleAccessibilityMode()">Changer le mode🌙</button>
+        </nav>
+
+    </header>
+    <section id="blog">
+        <div class="blog-heading">
+            <h1>Blog</h1>
+            <span>NOUVELLES COLLLECTION</span>
+        </div>
+        <section id="video">
+
+            <!-- Remplacez "VOTRE_CODE_EMBED" par le code d'intégration de votre vidéo -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K1N-3NkFmkk?si=6HgccyYmGartjOlW"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+        <div class="blog-container">
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="img/amg5.webp" alt="2024 Mercedes-Benz Classe G">
+                </div>
+
+                <div class="blog-text">
+                    <span>22 Mars 2024</span>
+                    <a href="#" class="blog-title">2024 Mercedes-Benz Classe G</a>
+                    <p>Le look et les dimensions du Mercedes Classe G
+                        C'est un cube. Comme toutes les générations précédentes, le modèle conserve un dessin rectiligne
+                        avec des angles prononcés. La recette du style 4x4 comme l'a conservé le Land Rover Defender.
+                        Malgré tout, la carrosserie a bien évolué avec une allure chic plus prononcée.</p>
+                    <p><span style="color: red;">Prix : </span><span id="price-article2" style="color: red;">142 650
+                            €</span></p>
+
+                    <!-- Section de commentaires pour le deuxième article -->
+                    <section class="comments">
+                        <h2>Commentaires</h2>
+                        <ul id="comments-list-article2" aria-live="polite">
+                            <!-- Commentaires seront ajoutés ici via JavaScript -->
+                        </ul>
+                        <form id="comment-form-article2">
+                            <label for="comment-input-article2">Ajouter un commentaire</label>
+                            <textarea id="comment-input-article2" rows="4" cols="50"></textarea>
+                            <button type="button" onclick="addComment('article2')">Soumettre</button>
+                        </form>
+                    </section>
+                </div>
+
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="img/amg2.webp" alt="2024 Mercedes-Benz Classe G">
+                </div>
+
+                <div class="blog-text">
+                    <span>22 Mars 2024</span>
+                    <a href="#" class="blog-title">2024 Mercedes-Benz Classe G</a>
+                    <p>Le look et les dimensions du Mercedes Classe G
+                        C'est un cube. Comme toutes les générations précédentes, le modèle conserve un dessin rectiligne
+                        avec des angles prononcés. La recette du style 4x4 comme l'a conservé le Land Rover Defender.
+                        Malgré tout, la carrosserie a bien évolué avec une allure chic plus prononcée.</p>
+                    <p><span style="color: red;">Prix : </span><span id="price-article2" style="color: red;">142 650
+                            €</span></p>
+
+                    <!-- Section de commentaires pour le deuxième article -->
+                    <section class="comments">
+                        <h2>Commentaires</h2>
+                        <ul id="comments-list-article2" aria-live="polite">
+                            <!-- Commentaires seront ajoutés ici via JavaScript -->
+                        </ul>
+                        <form id="comment-form-article2">
+                            <label for="comment-input-article2">Ajouter un commentaire</label>
+                            <textarea id="comment-input-article2" rows="4" cols="50"></textarea>
+                            <button type="button" onclick="addComment('article2')">Soumettre</button>
+                        </form>
+                    </section>
+                </div>
+
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="img/amg3.webp" alt="Mercedes-Maybach Classe S">
+                </div>
+
+                <div class="blog-text">
+                    <span>18 Avril 2024</span>
+                    <a href="#" class="blog-title">MERCEDES-MAYBACH CLASSE S</a>
+                    <p>La Mercedes-Maybach Classe S redéfinit l’ultra luxe et sera capable de dépasser vos attentes avec
+                        des matériaux haut de gamme, des finitions au cordeau remarquables, un confort exceptionnel et
+                        des technologies innovantes. Ce n’est qu’en découvrant la Classe S Maybach que vous découvrez le
+                        luxe ultime de l’automobile.</p>
+
+                    <p><span style="color: red;">Prix : </span><span id="price-article2" style="color: red;">340243.75€
+                        </span></p>
+
+                    <!-- Section de commentaires pour le troisième article -->
+                    <section class="comments">
+                        <h2>Commentaires</h2>
+                        <ul id="comments-list-article3" aria-live="polite">
+                            <!-- Commentaires seront ajoutés ici via JavaScript -->
+                        </ul>
+                        <form id="comment-form-article3">
+                            <label for="comment-input-article3">Ajouter un commentaire</label>
+                            <textarea id="comment-input-article3" rows="4" cols="50"></textarea>
+                            <button type="button" onclick="addComment('article3')">Soumettre</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+        <table id="articleTable">
+            <caption>Toutes les informations des voitures</caption>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Titre</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </section>
+    <section id="statistics" style="width: 80%; margin: auto;">
+        <div class="chart-container">
+            <canvas id="myChart" style="width: 100%; height: 400px;"></canvas>
+        </div>
+    </section>
+
+
+    <div class="gallery">
+        <div class="gallery-container">
+            <img class="gallery-item gallery-item-1" src="img/amg2.webp" data-index="1" alt="">
+            <img class="gallery-item gallery-item-2" src="img/amg3.webp" data-index="2" alt="">
+            <img class="gallery-item gallery-item-3" src="img/may1.png" data-index="3" alt="">
+            <img class="gallery-item gallery-item-4" src="img/m3.png" data-index="4" alt="">
+            <img class="gallery-item gallery-item-5" src="img/m2.jpeg" data-index="5" alt="">
+
+        </div>
+        <div class="gallery-controls"></div>
+        <script src="script.js"></script>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Mentions légales</h3>
+                <ul>
+                    <li><a href="#politique-confidentialite">Politique de confidentialité</a></li>
+                    <li><a href="#conditions">Conditions d'utilisation</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+
+                <ul>
+                    <li><a href="#formulaire-contact">Formulaire de contact</a></li>
+                    <li><a href="#support-technique">Support technique</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mon Site. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <!-- Ajouter le script pour Swiper.js -->
+
+
+</body>
+
+</html>
