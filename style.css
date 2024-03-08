@@ -94,9 +94,11 @@ ul li a:hover {
 #articleTable caption {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #b6b2b2;
+    color: #333;
+    /* Couleur du texte plus foncée pour un meilleur contraste */
     margin-bottom: 10px;
 }
+
 
 #articleTable th,
 #articleTable td {
@@ -204,10 +206,12 @@ span {
 .comments textarea {
     margin-bottom: 10px;
     padding: 10px;
+
 }
 
 .comments button {
-    background-color: #e74c3c;
+    background-color: #8a0c0c;
+    /* Nouvelle couleur de fond */
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -215,11 +219,10 @@ span {
     font-size: 1rem;
     transition: background-color 0.3s ease;
     font-weight: bold;
-
 }
 
 .comments button:hover {
-    background-color: #d9534f;
+    background-color: #383333;
     font-size: 0.9rem;
     font-weight: bold;
 }
